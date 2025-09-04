@@ -100,10 +100,6 @@ for frame in range(400):
     oscillation = math.sin(frame * 0.05)
     current_size = base_size + base_size * 0.5 * oscillation
 
-    print(frame)
-
-
-
     # Brillo en el centro
     draw_center_glow(25 + 8 * oscillation)
 
@@ -142,3 +138,4 @@ for frame in range(400):
     update()
 
 done()
+
